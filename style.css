@@ -105,6 +105,7 @@ footer{
 .cappu{
     width: 350px;
     float: left;
+    margin-left: 10px;
 }
 .formcontainer{
     padding: 10px;
@@ -145,4 +146,43 @@ li{
 }
 .fundoreceitas{
     background-color: rgb(77, 88, 96);
+}
+
+/** mobile **/
+
+@media screen and (max-width: 500px) {
+    body{
+        max-width: 500px;
+    }
+    .fundo{
+        display: inline;
+    }
+    .frente1{
+        float: none;
+    }    
+    .sobre2{
+        margin: auto;
+    }
+    .linkreceita{
+        display: block;
+    }
+    .equipamentos{
+        float: none;
+    }
+    .receita{
+        display: inline;
+    }
+    .mapa{
+        max-width: 300px;;
+    }
+    .cappu{
+        float: none;
+        margin: auto;
+    }
+    .data{
+        float: none;
+    }
+    .textbox{
+        max-width: 100%;
+    }
 }
